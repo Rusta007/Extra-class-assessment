@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>HTML & CSS</title>
+    <!-- This is an instance of Internal CSS  -->
+    <style>
+        h1 {
+            color: #077a10;
+        }
+
+        #pehliId {
+            text-align: center;
+            font-size: 25px;
+            color: #2ebe11;
+            padding-top: 10px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- CSS types- Inline, Internal, External -->
+    <!-- Inline has highest priority over Internal CSS, Internal has priority over External  -->
+    <div id="firstDiv">
+        <h1>Box Model</h1>
+        <p style="color: blue;">I am getting Blue color from Inline CSS</p>
+    </div>
+
+
+    <!-- Difference between Class and Id -->
+    <!-- ID is unique, can only be used once only on the other hand CLASS can be created and used multiple times -->
+    <div class="ElementClass">
+        <div id="pehliId">I am unique ID getting color from Internal CSS</div><br><br>
+        <div class="firstClass secondClass">I am having multiple classes
+            getting color from External CSS
+        </div>
+    </div>
+
+
+    <div class="divCircle"></div>
+
+</body>
+
+</html>

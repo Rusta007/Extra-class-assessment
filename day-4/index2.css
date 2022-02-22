@@ -1,0 +1,90 @@
+body {
+    background-color: #e47636;
+  }
+  p {
+    background-color: rgb(156, 179, 253);
+    font-size: 20px;
+    border: 2px solid rgb(39, 7, 7);
+  }
+  
+  .margin {
+    margin: 50px;
+    padding: 100px 100px 150px 50px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 30px;
+    /* margin: auto; */
+    text-align: right;
+    display: block;
+  }
+  .line35
+  {
+    width: 20%;
+  }
+  /* // Flex item width required: 215px
+  // Flex item margin 20px on each side: 215px + 20 + 20 = 255px
+  // I needed 3(your item per row) so: 255px * 3
+  // Then to (100% of parent-flex minus 255 * 3) / 2 padding on each side
+  // So it stays in the center.
+  padding: 40px calc((100% - (255px * 3)) / 2); */
+  
+  #container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px calc((100% - (255px * 3)) / 2);
+  }
+  
+  .box {
+    flex: 0 0 0 215px;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    text-align: center;
+    background-color: violet;
+  }
+  
+  .one{
+    background-color: violet;
+  
+  }
+  .two{
+       background-color: violet;
+  
+  }
+  .three{
+      background-color: violet;
+  
+  }
+  .four{
+      background-color: violet;
+  
+  }
+  .five{
+       background-color: violet;
+  
+  }
+  .six{
+       background-color: violet;
+  
+  }
+  .seven{
+       background-color: violet;
+  
+  }
+  .eight{
+      background-color: violet;
+  
+  }
+  .nine{
+      background-color: violet;
+  
+  }
+  .ten{
+       background-color: violet;
+  
+  }

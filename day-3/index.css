@@ -1,0 +1,61 @@
+h1{
+    text-align: center;
+}
+
+/* Created border property for body that has 10px double groove  hotpink */
+body{
+    border: 10px groove rgb(29, 4, 121);
+    background-color: #179bb3;
+    margin: 0;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+/* Example created to explain box-model */
+#firstDiv{
+    border: 2px solid rgb(230, 11, 11);
+    background-color: rgb(212, 138, 26);
+    margin: 20px 0px 0px 10px;
+    padding: 22px;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    text-align: center;
+    
+    
+}
+
+
+.firstClass{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(100, 62, 4);
+}
+
+
+/* created an example of circle  */
+.divCircle{
+    border: 2px solid rgb(56, 43, 43);
+    background-color: rgb(218, 132, 3);
+    text-align: center;
+    margin: 5px 0px 10px 70vw;
+    color: blue;
+    font-size: 20px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+
+}
+
+.ElementClass{
+    width: 350px;
+    height: 250px;
+    border: 2px dotted black;
+    background-color: #f14040;
+    justify-content: center;
+    margin: 20px 0px 0px 450px;
+    text-align: justify;
+}
