@@ -31,6 +31,7 @@ body {
   padding: 40px calc((100% - (255px * 3)) / 2); */
   
   #container {
+    border: 10px groove rgb(66, 2, 2);;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
