@@ -1,0 +1,80 @@
+h2, h3{
+    color: rgb(48, 65, 143);
+    text-align: center;
+
+}
+
+.bb{
+    border-radius: 10px;
+    border: 3px solid black;
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 200px;
+    background-image: linear-gradient(to right, aqua, rgb(71, 35, 29));
+    margin: auto;
+    
+}
+.lg{
+    margin: auto;
+    border-radius: 25px;
+    border: 3px solid black;
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 200px;
+    background-image: linear-gradient(to right bottom, rgb(172, 201, 201), rgb(194, 29, 0));
+    
+}
+.rg{
+    border-radius: 25px;
+    border: 3px solid black;
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 200px;
+    background-image: radial-gradient( rgb(251, 242, 255), rgb(109, 53, 221), rgb(129, 11, 11));
+    margin:  20px auto;
+}
+    
+
+.cb{
+    margin: auto;
+    border-radius: 10px;
+    border: 3px solid black;
+    width: 400px;
+    padding: 10px;
+    box-sizing: content-box;
+    height: 200px;
+    background-image: radial-gradient( rgb(87, 104, 104), rgb(234, 229, 250), rgb(44, 32, 32));
+}
+
+body{
+    background-color: rgb(238, 229, 229);
+}
+p{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.right{
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 400px;
+    padding: 10px;
+    /* box-sizing: content-box; */
+    height: 200px;
+    background-image: radial-gradient( rgb(164, 211, 79), rgb(196, 245, 37), rgb(165, 51, 51));
+    float: right;
+}
+.left{
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 400px;
+    padding: 10px;
+    /* box-sizing: content-box; */
+    height: 200px;
+    background-image: radial-gradient( rgb(164, 211, 79), rgb(196, 245, 37), rgb(165, 51, 51));
+    float: left;
+    clear: both;
+}
