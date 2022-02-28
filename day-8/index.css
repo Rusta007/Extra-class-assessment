@@ -1,0 +1,45 @@
+body
+{
+    background-color: black;
+}
+.box
+{
+    border: 2px solid red ;
+    width: 200px;
+    height: 200px;
+    box-shadow: 4px 4px 4px 3px green;
+    padding: 2px;
+    text-shadow: 4px 4px 3px rgb(184, 32, 32);  
+    background-color: rgb(235, 235, 86);
+    /* transition: width 3s ,height 2s,background-color 3s linear;   */
+    transition:transform 5s;
+    margin: 15px;
+    margin-left: 50px;
+
+}
+h1{
+    text-shadow: 4px 4px 3px gray;    
+    color: aliceblue;
+}
+.box1:hover{
+  
+transform:  rotate(360deg);
+
+}
+.box2{
+    background-color: aqua;
+    transition: transform 5s;
+
+}
+.box2:hover{
+    transform: translate(500px);
+}
+.box3
+{
+    background-color: tomato;
+    transition: width 5s;
+    transition-delay: 1s;
+}
+.box3:hover{
+    width: 400px;
+}
