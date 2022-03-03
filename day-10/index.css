@@ -1,0 +1,30 @@
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  
+}
+
+.box {
+  width: 9.25rem;
+  height: 9.25rem;
+  background-color: rgb(224, 97, 46);
+  border: 1px dashed rgb(241, 236, 236);
+  margin: 2rem;
+}
+
+@media (max-width: 920px){
+.container {
+    /* display: block; */
+    flex-direction: column;
+    align-items: center;
+
+}
+}
